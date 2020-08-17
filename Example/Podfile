@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'CLFoundation_Example' do
-  pod 'CLFoundation', :path => '../'
+  pod 'QCLFoundation', :path => '../'
 
   target 'CLFoundation_Tests' do
     inherit! :search_paths

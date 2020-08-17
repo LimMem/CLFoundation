@@ -6,7 +6,11 @@ PODS:
   - AFNetworking/Reachability (4.0.1)
   - AFNetworking/Security (4.0.1)
   - AFNetworking/Serialization (4.0.1)
-  - CLFoundation (0.1.0):
+  - CTMediator (32)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJExtension (3.2.2)
+  - QCLFoundation (0.1.2):
     - CTMediator (~> 32)
     - Masonry (~> 1.1)
     - MBProgressHUD (~> 1.2.0)
@@ -15,10 +19,6 @@ PODS:
     - ReactiveObjC (~> 3.1.1)
     - SDWebImage (~> 5.8.4)
     - YTKNetwork (~> 3.0.2)
-  - CTMediator (32)
-  - Masonry (1.1.0)
-  - MBProgressHUD (1.2.0)
-  - MJExtension (3.2.2)
   - QMUIKit (4.1.3):
     - QMUIKit/QMUIComponents (= 4.1.3)
     - QMUIKit/QMUICore (= 4.1.3)
@@ -331,11 +331,11 @@ PODS:
   - SDWebImage (5.8.4):
     - SDWebImage/Core (= 5.8.4)
   - SDWebImage/Core (5.8.4)
-  - YTKNetwork (3.0.2):
+  - YTKNetwork (3.0.3):
     - AFNetworking/NSURLSession (~> 4.0)
 
 DEPENDENCIES:
-  - CLFoundation (from `../`)
+  - QCLFoundation (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -350,21 +350,21 @@ SPEC REPOS:
     - YTKNetwork
 
 EXTERNAL SOURCES:
-  CLFoundation:
+  QCLFoundation:
     :path: "../"
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  CLFoundation: 52057c197efa1d4ee212947782fb79068db24611
   CTMediator: 10f2c387be0ab2061b75b88c86f9903eedba1ce8
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
+  QCLFoundation: e0051f1e8dc7e90e589efc550a161c99669e6117
   QMUIKit: 1063a99f90aedd6e2dd65026ce0df46e6785e67b
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
-  YTKNetwork: 4ba4b90b327fe8cde91d3beaa30194539b9dd491
+  YTKNetwork: cc6c9799860cfbcd3605a92242ad2ee2a04d6e0c
 
-PODFILE CHECKSUM: 79bfb2261cc4d6cfe7609d72bfe7d744aa78cdd8
+PODFILE CHECKSUM: 3710719bc6d47690fc6fa0b12119d642ef3eab6e
 
 COCOAPODS: 1.9.3

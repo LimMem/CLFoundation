@@ -23,8 +23,10 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7207C6413FDA0FBCB7DD33A3 /* Pods_CLFoundation_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBE63456DF1A3F2AAA01654 /* Pods_CLFoundation_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		E9410FC424EA229A0076BB61 /* CLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9410FC324EA229A0076BB61 /* CLBaseViewController.m */; };
-		E9410FC724EA22C50076BB61 /* CLBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E9410FC624EA22C50076BB61 /* CLBaseModel.m */; };
+		E9410FCC24EA25DE0076BB61 /* QCLFoundation.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E9410FCB24EA25DE0076BB61 /* QCLFoundation.podspec */; };
+		E941109B24EA3FFB0076BB61 /* CLBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E941109724EA3FFB0076BB61 /* CLBaseModel.m */; };
+		E941109C24EA3FFB0076BB61 /* CLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E941109924EA3FFB0076BB61 /* CLBaseViewController.m */; };
+		E94110A424EA40430076BB61 /* CLBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E94110A324EA40430076BB61 /* CLBaseViewModel.m */; };
 		FFCD37A0F479610D9E2BF442 /* Pods_CLFoundation_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F1CA7CD679351D4897F00D /* Pods_CLFoundation_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,10 +71,13 @@
 		9F190BAD4ADD1704F2D24BFB /* Pods-CLFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLFoundation_Example.release.xcconfig"; path = "Target Support Files/Pods-CLFoundation_Example/Pods-CLFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D6A2D8937F7D2422F5C6303E /* Pods-CLFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLFoundation_Example.debug.xcconfig"; path = "Target Support Files/Pods-CLFoundation_Example/Pods-CLFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E9410FC124EA22480076BB61 /* QCLFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QCLFoundation.h; path = ../CLFoundation/Classes/QCLFoundation.h; sourceTree = "<group>"; };
-		E9410FC224EA229A0076BB61 /* CLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CLBaseViewController.h; path = ../CLFoundation/Classes/CLBaseViewController.h; sourceTree = "<group>"; };
-		E9410FC324EA229A0076BB61 /* CLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CLBaseViewController.m; path = ../CLFoundation/Classes/CLBaseViewController.m; sourceTree = "<group>"; };
-		E9410FC524EA22C50076BB61 /* CLBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLBaseModel.h; sourceTree = "<group>"; };
-		E9410FC624EA22C50076BB61 /* CLBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLBaseModel.m; sourceTree = "<group>"; };
+		E9410FCB24EA25DE0076BB61 /* QCLFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; name = QCLFoundation.podspec; path = ../QCLFoundation.podspec; sourceTree = "<group>"; };
+		E941109624EA3FFB0076BB61 /* CLBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLBaseModel.h; sourceTree = "<group>"; };
+		E941109724EA3FFB0076BB61 /* CLBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLBaseModel.m; sourceTree = "<group>"; };
+		E941109924EA3FFB0076BB61 /* CLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLBaseViewController.m; sourceTree = "<group>"; };
+		E941109A24EA3FFB0076BB61 /* CLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLBaseViewController.h; sourceTree = "<group>"; };
+		E94110A224EA40430076BB61 /* CLBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLBaseViewModel.h; sourceTree = "<group>"; };
+		E94110A324EA40430076BB61 /* CLBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLBaseViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,15 +200,45 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				E94110A124EA40430076BB61 /* CLBaseViewModel */,
+				E941109524EA3FFB0076BB61 /* CLBaseModel */,
+				E941109824EA3FFB0076BB61 /* CLBaseViewController */,
+				E9410FCB24EA25DE0076BB61 /* QCLFoundation.podspec */,
 				4EB63B602A599043826679D1 /* README.md */,
 				6489D5BA2FB88A970920FEEB /* LICENSE */,
 				E9410FC124EA22480076BB61 /* QCLFoundation.h */,
-				E9410FC224EA229A0076BB61 /* CLBaseViewController.h */,
-				E9410FC324EA229A0076BB61 /* CLBaseViewController.m */,
-				E9410FC524EA22C50076BB61 /* CLBaseModel.h */,
-				E9410FC624EA22C50076BB61 /* CLBaseModel.m */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		E941109524EA3FFB0076BB61 /* CLBaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				E941109624EA3FFB0076BB61 /* CLBaseModel.h */,
+				E941109724EA3FFB0076BB61 /* CLBaseModel.m */,
+			);
+			name = CLBaseModel;
+			path = ../CLFoundation/Classes/CLBaseModel;
+			sourceTree = "<group>";
+		};
+		E941109824EA3FFB0076BB61 /* CLBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E941109A24EA3FFB0076BB61 /* CLBaseViewController.h */,
+				E941109924EA3FFB0076BB61 /* CLBaseViewController.m */,
+			);
+			name = CLBaseViewController;
+			path = ../CLFoundation/Classes/CLBaseViewController;
+			sourceTree = "<group>";
+		};
+		E94110A124EA40430076BB61 /* CLBaseViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E94110A224EA40430076BB61 /* CLBaseViewModel.h */,
+				E94110A324EA40430076BB61 /* CLBaseViewModel.m */,
+			);
+			name = CLBaseViewModel;
+			path = ../CLFoundation/Classes/CLBaseViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				E9410FCC24EA25DE0076BB61 /* QCLFoundation.podspec in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -313,11 +349,11 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CLFoundation_Example/Pods-CLFoundation_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/CLFoundation/CLFoundation.framework",
 				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/QCLFoundation/QCLFoundation.framework",
 				"${BUILT_PRODUCTS_DIR}/QMUIKit/QMUIKit.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
@@ -326,11 +362,11 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CLFoundation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QCLFoundation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMUIKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
@@ -393,10 +429,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* CLAppDelegate.m in Sources */,
+				E941109C24EA3FFB0076BB61 /* CLBaseViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* CLViewController.m in Sources */,
-				E9410FC424EA229A0076BB61 /* CLBaseViewController.m in Sources */,
-				E9410FC724EA22C50076BB61 /* CLBaseModel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				E94110A424EA40430076BB61 /* CLBaseViewModel.m in Sources */,
+				E941109B24EA3FFB0076BB61 /* CLBaseModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
