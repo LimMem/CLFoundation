@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CLFoundation'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CLFoundation.'
+  s.summary          = 'CLFoundation业务基础组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 模块化开发 基础业务组件
                        DESC
 
   s.homepage         = 'https://github.com/LimMem/CLFoundation'
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/LimMem/CLFoundation.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'CLFoundation/Classes/**/*'
   
@@ -37,6 +37,14 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'Foundation'
+  s.dependency 'Masonry', '~> 1.1'
+  s.dependency 'CTMediator', '~> 32'
+  s.dependency 'QMUIKit', '~> 4.1'
+  s.dependency 'MBProgressHUD', '~> 1.2.0'
+  s.dependency 'ReactiveObjC', '~> 3.1.1'
+  s.dependency 'YTKNetwork', '~> 3.0.2'
+  s.dependency 'SDWebImage', '~> 5.8.4'
+  s.dependency 'MJExtension', '~> 3.2.2'
+  
 end
