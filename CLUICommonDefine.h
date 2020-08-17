@@ -9,36 +9,8 @@
 #ifndef CLUICommonDefine_h
 #define CLUICommonDefine_h
 
-CG_INLINE CGRect 
-CGRectSetY(CGRect rect, CGFloat y) {
-    rect.origin.y = y;
-    return rect;
-}
 
-CG_INLINE CGRect
-CGRectSetX(CGRect rect, CGFloat x) {
-    rect.origin.x = x;
-    return rect;
-}
-
-CG_INLINE CGRect
-CGRectSetHeight(CGRect rect, CGFloat height) {
-    rect.size.height = height;
-    return rect;
-}
-
-CG_INLINE CGRect
-CGRectSetWidth(CGRect rect, CGFloat width) {
-    rect.size.width = width;
-    return rect;
-}
-
-CG_INLINE CGRect
-CGRectSetSize(CGRect rect, CGSize size) {
-    rect.size = size;
-    return rect;
-}
-
+//
 CG_INLINE CGRect
 CGRectSetMidX(CGRect rect, CGFloat midX) {
     CGFloat width = CGRectGetWidth(rect);
@@ -46,6 +18,7 @@ CGRectSetMidX(CGRect rect, CGFloat midX) {
     return rect;
 }
 
+// 
 CG_INLINE CGRect
 CGRectSetMidY(CGRect rect, CGFloat midY) {
     CGFloat height = CGRectGetHeight(rect);

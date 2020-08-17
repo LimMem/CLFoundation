@@ -8,6 +8,7 @@
 
 #import "UIView+CLKit.h"
 #import "CLUICommonDefine.h"
+#import <QMUIKit/QMUIKit.h>
 
 @implementation UIView (CLKit)
 
