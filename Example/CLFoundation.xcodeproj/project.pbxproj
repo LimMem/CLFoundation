@@ -23,6 +23,8 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7207C6413FDA0FBCB7DD33A3 /* Pods_CLFoundation_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBE63456DF1A3F2AAA01654 /* Pods_CLFoundation_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		E9410FC424EA229A0076BB61 /* CLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9410FC324EA229A0076BB61 /* CLBaseViewController.m */; };
+		E9410FC724EA22C50076BB61 /* CLBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E9410FC624EA22C50076BB61 /* CLBaseModel.m */; };
 		FFCD37A0F479610D9E2BF442 /* Pods_CLFoundation_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F1CA7CD679351D4897F00D /* Pods_CLFoundation_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +68,11 @@
 		909E24AD7319F92A43202423 /* Pods-CLFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLFoundation_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CLFoundation_Tests/Pods-CLFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F190BAD4ADD1704F2D24BFB /* Pods-CLFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLFoundation_Example.release.xcconfig"; path = "Target Support Files/Pods-CLFoundation_Example/Pods-CLFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D6A2D8937F7D2422F5C6303E /* Pods-CLFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLFoundation_Example.debug.xcconfig"; path = "Target Support Files/Pods-CLFoundation_Example/Pods-CLFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E9410FC124EA22480076BB61 /* QCLFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QCLFoundation.h; path = ../CLFoundation/Classes/QCLFoundation.h; sourceTree = "<group>"; };
+		E9410FC224EA229A0076BB61 /* CLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CLBaseViewController.h; path = ../CLFoundation/Classes/CLBaseViewController.h; sourceTree = "<group>"; };
+		E9410FC324EA229A0076BB61 /* CLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CLBaseViewController.m; path = ../CLFoundation/Classes/CLBaseViewController.m; sourceTree = "<group>"; };
+		E9410FC524EA22C50076BB61 /* CLBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLBaseModel.h; sourceTree = "<group>"; };
+		E9410FC624EA22C50076BB61 /* CLBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLBaseModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +197,11 @@
 			children = (
 				4EB63B602A599043826679D1 /* README.md */,
 				6489D5BA2FB88A970920FEEB /* LICENSE */,
+				E9410FC124EA22480076BB61 /* QCLFoundation.h */,
+				E9410FC224EA229A0076BB61 /* CLBaseViewController.h */,
+				E9410FC324EA229A0076BB61 /* CLBaseViewController.m */,
+				E9410FC524EA22C50076BB61 /* CLBaseModel.h */,
+				E9410FC624EA22C50076BB61 /* CLBaseModel.m */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -241,7 +253,7 @@
 		6003F582195388D10070C39A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = CL;
+				CLASSPREFIX = QCL;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = LimMem;
 				TargetAttributes = {
@@ -382,6 +394,8 @@
 			files = (
 				6003F59E195388D20070C39A /* CLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CLViewController.m in Sources */,
+				E9410FC424EA229A0076BB61 /* CLBaseViewController.m in Sources */,
+				E9410FC724EA22C50076BB61 /* CLBaseModel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

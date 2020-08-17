@@ -30,7 +30,7 @@ TODO: 模块化开发 基础业务组件
 
   s.ios.deployment_target = '9.0'
 
-#  s.source_files = 'CLFoundation/Classes/**/*'
+  s.source_files = 'CLFoundation/Classes/**/*'
   
   # s.resource_bundles = {
   #   'CLFoundation' => ['CLFoundation/Assets/*.png']
