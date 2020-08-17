@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'CLFoundation'
+  s.name             = 'QCLFoundation'
   s.version          = '0.1.0'
   s.summary          = 'CLFoundation业务基础组件'
 
