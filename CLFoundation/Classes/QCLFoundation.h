@@ -19,8 +19,6 @@
 #import <ReactiveObjC/ReactiveObjC.h>
 #import <UIButton+WebCache.h>
 #import <UIImageView+WebCache.h>
-#import "UIView+CLKit.h"
-#import "CLUICommonDefine.h"
 
 
 #endif /* QCLFoundation_h */

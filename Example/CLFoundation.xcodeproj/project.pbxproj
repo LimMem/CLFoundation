@@ -292,6 +292,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = LimMem;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = HZMQ7243KR;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -561,6 +564,7 @@
 			baseConfigurationReference = D6A2D8937F7D2422F5C6303E /* Pods-CLFoundation_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HZMQ7243KR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CLFoundation/CLFoundation-Prefix.pch";
 				INFOPLIST_FILE = "CLFoundation/CLFoundation-Info.plist";
@@ -577,6 +581,7 @@
 			baseConfigurationReference = 9F190BAD4ADD1704F2D24BFB /* Pods-CLFoundation_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HZMQ7243KR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CLFoundation/CLFoundation-Prefix.pch";
 				INFOPLIST_FILE = "CLFoundation/CLFoundation-Info.plist";

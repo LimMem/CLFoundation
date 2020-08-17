@@ -10,7 +10,7 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MJExtension (3.2.2)
-  - QCLFoundation (0.1.4):
+  - QCLFoundation (0.1.5):
     - CTMediator (~> 32)
     - Masonry (~> 1.1)
     - MBProgressHUD (~> 1.2.0)
@@ -359,7 +359,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
-  QCLFoundation: 93a60f51ac195266418ff938c8b763029569f098
+  QCLFoundation: 0e97a1d56f74900d787bd63b23c0b713d5740a42
   QMUIKit: 1063a99f90aedd6e2dd65026ce0df46e6785e67b
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
