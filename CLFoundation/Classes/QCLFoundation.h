@@ -11,7 +11,7 @@
 
 #import <CTMediator/CTMediator.h>
 #import <MBProgressHUD/MBProgressHUD.h>
-#import <QMUIKit.h>
+#import <QMUIKit/QMUIKit.h>
 #import <AFNetworking/AFURLSessionManager.h>
 #import <MJExtension/MJExtension.h>
 #import <YTKNetwork/YTKNetwork.h>
@@ -19,6 +19,12 @@
 #import <ReactiveObjC/ReactiveObjC.h>
 #import <SDWebImage/UIButton+WebCache.h>
 #import <SDWebImage/UIImageView+WebCache.h>
+#import "CLBaseViewController.h"
+#import "CLBaseModel.h"
+#import "CLBaseViewModel.h"
+#import "UIDevice+CL.h"
+#import "NSDate+CL.h"
+#import "NSString+CLRegex.h"
 
 
 #endif /* QCLFoundation_h */
